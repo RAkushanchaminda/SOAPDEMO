@@ -12,6 +12,6 @@ apictl add env prod \
                   --devportal https://10.8.0.22:9444 \
                   --admin https://10.8.0.22:9444 \
                   --token https://10.8.0.22:8244/token \
-                  --mi https://10.8.0.22:9444
+                  --mi https://10.8.0.22:9165
 echo 'logging into prod'
 apictl login prod -u $USERNAME -p $PASSWORD
