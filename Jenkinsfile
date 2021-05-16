@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         CI = 'true'
-        API = './SOAPDEMO'
+        API = './SOAPDemo'
     }
     stages{
         stage('Setup APIM Environments'){
