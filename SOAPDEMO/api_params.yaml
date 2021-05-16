@@ -1,0 +1,13 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+        url: 'https://localhost'
+        config:
+          retryTimeout: $RETRY
+  - name: prod
+    endpoints:
+      production:
+        url: 'https://prod.wso2.com'
+        config:
+          retryTimeout: $RETRY
